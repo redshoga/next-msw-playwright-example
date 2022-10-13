@@ -1,5 +1,4 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
 
 // msw config
 if (process.env.NODE_ENV === "development") {
@@ -10,7 +9,7 @@ if (process.env.NODE_ENV === "development") {
 }
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
